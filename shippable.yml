@@ -7,6 +7,8 @@ addons:
 services:
   - selenium
 
+build_image: drydock/u14pytpls:tip
+
 env:
   global:
     - DISPLAY=:99.0
