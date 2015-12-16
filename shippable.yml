@@ -6,6 +6,8 @@ addons:
   firefox: "28.0"
 services:
   - selenium
+  
+build_image: drydock/u12pytpls:prod
 
 env:
   global:
@@ -18,7 +20,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   - mysql -e 'create database test;'
-  - /etc/init.d/xvfb start 
+ # - /etc/init.d/xvfb start 
 
 script:
   - python manage.py test
