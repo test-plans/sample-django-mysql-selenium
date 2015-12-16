@@ -10,7 +10,7 @@ services:
   - selenium
   - mysql
   
-build_image: drydock/u12pytall:tip
+#build_image: drydock/u12pytall:tip
 
 env:
   global:
