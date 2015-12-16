@@ -7,7 +7,7 @@ addons:
 services:
   - selenium
   
-build_image: drydock/u12pytpls:prod
+build_image: drydock/u12pytpls:tip
 
 env:
   global:
