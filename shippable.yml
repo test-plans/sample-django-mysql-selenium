@@ -6,7 +6,7 @@ python:
   
 addons:
   firefox: "39.0"
- # selenium: "2.43"
+  selenium: "2.45"
   
 build_image: drydock/u14pytpls:tip
 
